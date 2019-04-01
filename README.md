@@ -18,7 +18,7 @@ To add your own keywords/url to the tool simply edit your local `qurl_url.csv`
 file in the project folder and add a new lines. Below is an example line.
 Keyword and urls are seperated by a comma.
 
-`goog,www.google.com`
+`goog,https://www.google.com/`
 
 ### Bash File to Launch Tool
 Create a bash script named `qu` and add the lines below. Best to store the
@@ -34,4 +34,4 @@ folder may differ to the example given.
 If you forget your keywords you can quickly check them by running `qu list`
 
 #### Existing keywords
-`goog` : www.google.com
+`goog` : https://www.google.com/
